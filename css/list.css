@@ -1,0 +1,144 @@
+/* 列表页专属模块 */
+.sk {
+    position: absolute;
+    border-left: 1px solid #c81523;
+    left: 190px;
+    top: 40px;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.sk_con ul li {
+    float: left;
+
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.sk_bd ul li {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: #c81523 1px solid;
+    margin-right: 13px;
+}
+
+.sk_bd ul li img {
+    position: absolute;
+    width: 288px;
+    height: 288px;
+    top: 0;
+}
+
+.sk_bd ul li p {
+    float: left;
+    color: #666666;
+    font-size: 14px;
+    margin: 14px;
+    margin-top: 283px;
+}
+
+.sk_bd ul li i {
+    display: block;
+    float: left;
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 700;
+    margin-left: 14px;
+}
+
+.sk_bd ul li i em {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .bar {
+    float: left;
+    height: 40px;
+    width: 290px;
+}
+
+.sk_bd ul li .bar p {
+    float: left;
+    font-size: 14px;
+    color: #666666;
+    margin: 12px;
+}
+
+.sk_bd ul li .bar p:last-child {
+    position: absolute;
+    right: 0;
+}
+
+.sk_bd ul li .bar p b {
+    font-size: 14px;
+    font-weight: 400;
+    color: #e60012;
+}
+
+.sk_bd ul li .bar .bar_ {
+    position: absolute;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #e60012;
+    border-radius: 6px;
+    bottom: 57px;
+    left: 77px;
+}
+
+.sk_bd ul li .bar .bar_ .num_box {
+    height: 12px;
+    width: 117px;
+    border-radius: 6px 0 0 6px;
+    background-color: #e60012;
+}
+
+.sk_bd ul li .go {
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    background-color: #c81523;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    bottom: 0;
+    cursor: pointer;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin: 0;
+}
+.sk_bd {
+    margin-top: 25px;
+    margin-bottom: 282px;
+}
